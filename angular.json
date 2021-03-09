@@ -49,7 +49,12 @@
             "aot": true,
             "assets": [
               "apps/academico/src/favicon.ico",
-              "apps/academico/src/assets"
+              "apps/academico/src/assets",
+              {
+                "input": "libs/shared/assets/src/lib",
+                "glob": "*.png",
+                "output": "assets"
+              }
             ],
             "styles": ["apps/academico/src/styles.scss"],
             "scripts": []
@@ -167,6 +172,27 @@
           "outputs": ["coverage/libs/shared/ui-material"],
           "options": {
             "jestConfig": "libs/shared/ui-material/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "shared-assets": {
+      "root": "libs/shared/assets",
+      "sourceRoot": "libs/shared/assets/src",
+      "projectType": "library",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/shared/assets/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/shared/assets"],
+          "options": {
+            "jestConfig": "libs/shared/assets/jest.config.js",
             "passWithNoTests": true
           }
         }

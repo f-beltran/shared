@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ucb/shared/ui-material": ["libs/shared/ui-material/src/index.ts"]
+      "@ucb/shared/ui-material": ["libs/shared/ui-material/src/index.ts"],
+      "@ucb/shared/assets": ["libs/shared/assets/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

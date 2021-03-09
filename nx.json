@@ -18,6 +18,7 @@
   "projects": {
     "academico": { "tags": [] },
     "academico-e2e": { "tags": [], "implicitDependencies": ["academico"] },
-    "shared-ui-material": { "tags": [] }
+    "shared-ui-material": { "tags": [] },
+    "shared-assets": { "tags": [] }
   }
 }
