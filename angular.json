@@ -146,6 +146,31 @@
           }
         }
       }
+    },
+    "shared-ui-material": {
+      "projectType": "library",
+      "root": "libs/shared/ui-material",
+      "sourceRoot": "libs/shared/ui-material/src",
+      "prefix": "ucb",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/shared/ui-material/src/**/*.ts",
+              "libs/shared/ui-material/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/shared/ui-material"],
+          "options": {
+            "jestConfig": "libs/shared/ui-material/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }
