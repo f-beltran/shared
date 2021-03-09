@@ -1,0 +1,71 @@
+<mat-toolbar class="toolbar" color="primary">
+  <button mat-icon-button (click)="toggleSidenavLeft()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>SUN</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button >
+    <mat-icon>favorite</mat-icon>
+  </button>
+
+  <button mat-icon-button (click)="toggleSidenavRight()">
+    <mat-icon>settings</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container"  [hasBackdrop]="hasBackdrop">
+  <mat-sidenav class="sidenav left"
+               position="start"
+               (closed)="seTerminoDeCerrar()"
+               (opened)="seTerminoDeAbrir()"
+               [opened]="sideNavLeftOpen"
+               [mode]="mode">
+
+
+    <mat-nav-list>
+      <ucb-menu-items [navItems]='navItems' (clickLink)='metodo($event)'></ucb-menu-items>
+    </mat-nav-list>
+
+
+
+
+  </mat-sidenav>
+
+  <mat-sidenav class="sidenav right"
+               position="end"
+               [opened]="sideNavRightOpen"
+               [mode]="'cover'">
+
+    <form [formGroup]="formModel" (ngSubmit)="onSubmit()" >
+      <mat-form-field appearance="fill">
+        <mat-label>Establecer piel</mat-label>
+        <mat-select formControlName="skin">
+          <mat-option>Ninguno</mat-option>
+          <mat-option *ngFor="let skin of skins" [value]="skin.value">
+            {{skin.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Establecer modo</mat-label>
+        <mat-select formControlName="mode">
+          <mat-option>Ninguno</mat-option>
+          <mat-option *ngFor="let mode of modes" [value]="mode.value">
+            {{mode.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+
+      <section class="example-section">
+        <mat-checkbox formControlName="backdrop">Usar backdrop</mat-checkbox>
+      </section>
+
+
+    </form>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-content">
+        <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

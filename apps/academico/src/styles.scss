@@ -1,5 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+@import '~@angular/material/theming';
+@include mat-core();
+
+$academico-dark-primary: mat-palette($mat-amber);
+$academico-dark-accent: mat-palette($mat-blue-grey, A200, A100, A400);
+$academico-dark-warn: mat-palette($mat-red);
+$academico-dark-theme: mat-dark-theme((
+  color: (
+    primary: $academico-dark-primary,
+    accent: $academico-dark-accent,
+    warn: $academico-dark-warn,
+  )
+));
+@include angular-material-theme($academico-dark-theme);
+
+
+$academico-light-primary: mat-palette($mat-indigo);
+$academico-light-accent: mat-palette($mat-amber, A200, A100, A400);
+$academico-light-warn: mat-palette($mat-red);
+$academico-light-theme: mat-light-theme((
+  color: (
+    primary: $academico-light-primary,
+    accent: $academico-light-accent,
+    warn: $academico-light-warn,
+  )
+));
+
+.light_theme{
+  @include angular-material-theme($academico-light-theme);
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 

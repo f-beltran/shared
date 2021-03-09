@@ -1,0 +1,26 @@
+//NAVEGACION SUPERIOR
+.toolbar{
+  //display: none;
+  position: absolute;
+  z-index: 100;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+//NAVEGACION
+.sidenav-container{
+  height: 100%;
+}
+.sidenav {
+  width: 275px;
+  padding-top: 64px;
+}
+form{
+  padding: 15px;
+}
+.mat-form-field{
+  width: 100%;
+}
+.sidenav-content{
+  padding-top: 64px;
+}

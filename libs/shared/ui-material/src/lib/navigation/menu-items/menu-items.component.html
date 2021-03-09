@@ -1,0 +1,54 @@
+<ng-container *ngFor='let item of navItems; index as i'>
+  <a mat-list-item
+     (click)="onItemSelected(item, 'menu_' + i)">
+    <mat-icon color="primary" class="main_icon" [ngStyle]="{'padding-left': (0) + 'px'}">{{item.iconName}}</mat-icon>
+    {{item.displayName}}
+    <ng-container *ngIf="item.children && item.children.length">
+      <mat-icon [@indicatorRotate]=" 'menu_' + i === actual.split('_').slice(0,2).join('_') ? 'expanded': 'collapsed'" class="expand_more_icon">
+        expand_more
+      </mat-icon>
+    </ng-container>
+  </a>
+
+  <div *ngIf="'menu_' + i  === actual.split('_').slice(0,2).join('_')">
+    <ng-container *ngFor='let child of item.children; index as j' >
+      <a mat-list-item
+         (click)="onItemSelected(child, 'menu_' + i + '_' + j)">
+        <mat-icon color="primary" class="main_icon" [ngStyle]="{'padding-left': (14) + 'px'}">{{child.iconName}}</mat-icon>
+        {{child.displayName}}
+        <ng-container *ngIf="child.children && child.children.length">
+          <mat-icon [@indicatorRotate]=" 'menu_' + i + '_' + j === actual.split('_').slice(0,3).join('_') ? 'expanded': 'collapsed'" class="expand_more_icon">
+            expand_more
+          </mat-icon>
+        </ng-container>
+      </a>
+
+      <div  *ngIf="'menu_' + i + '_' + j === actual.split('_').slice(0,3).join('_')">
+        <ng-container *ngFor='let child2 of child.children; index as k'>
+          <a mat-list-item
+             (click)="onItemSelected(child2, 'menu_' + i + '_' + j + '_' + k)">
+            <mat-icon color="primary" class="main_icon" [ngStyle]="{'padding-left': (2 * 14) + 'px'}">{{child2.iconName}}</mat-icon>
+            {{child2.displayName}}
+            <ng-container *ngIf="child2.children && child2.children.length">
+              <mat-icon [@indicatorRotate]=" 'menu_' + i + '_' + j + '_' + k === actual.split('_').slice(0,4).join('_') ? 'expanded': 'collapsed'" class="expand_more_icon">
+                expand_more
+              </mat-icon>
+            </ng-container>
+          </a>
+
+          <div  *ngIf="'menu_' + i + '_' + j + '_' + k === actual.split('_').slice(0,4).join('_')">
+            <ng-container *ngFor='let child3 of child2.children; index as w'>
+              <a mat-list-item
+                 (click)="onItemSelected(child3, 'menu_' + i + '_' + j + '_' + k + '_' + w)">
+                <mat-icon color="primary" class="main_icon" [ngStyle]="{'padding-left': (3 * 14) + 'px'}">{{child3.iconName}}</mat-icon>
+                {{child3.displayName}}
+              </a>
+            </ng-container>
+          </div>
+
+        </ng-container>
+      </div>
+
+    </ng-container>
+  </div>
+</ng-container>
