@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { FooComponent } from './foo/foo.component';
 import { SidenavComponent } from './navigation/sidenav/sidenav.component';
 import { MenuItemsComponent } from './navigation/menu-items/menu-items.component';
 
@@ -35,8 +34,8 @@ import { RouterModule } from '@angular/router';
     MatSelectModule,
     MatCheckboxModule
   ],
-  declarations: [FooComponent, SidenavComponent, MenuItemsComponent],
-  exports: [FooComponent,
+  declarations: [SidenavComponent, MenuItemsComponent],
+  exports: [
     SidenavComponent,
     MenuItemsComponent,
     MatSliderModule,

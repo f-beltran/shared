@@ -28,7 +28,7 @@ $academico-light-theme: mat-light-theme((
 ));
 
 .light_theme{
-  @include angular-material-theme($academico-light-theme);
+  @include angular-material-color($academico-light-theme);
 }
 
 html, body { height: 100%; }
