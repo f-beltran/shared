@@ -1,6 +1,14 @@
 {
   "extends": ["../../.eslintrc.json"],
   "ignorePatterns": ["!**/*"],
+  "max-len": [
+    2,
+    150,
+    4,
+    {
+      "ignoreUrls": true
+    }
+  ],
   "overrides": [
     {
       "files": ["*.ts"],

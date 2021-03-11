@@ -4,11 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SharedUiMaterialModule } from '@ucb/shared/ui-material';
 import { AppRoutingModule } from './app-routing.module';
-import { BarComponent } from './bar/bar.component';
+import { PersonasModule } from './personas/personas.module';
 
 @NgModule({
-  declarations: [AppComponent, BarComponent],
-  imports: [BrowserModule, SharedUiMaterialModule, AppRoutingModule],
+  declarations: [AppComponent],
+  imports: [BrowserModule, SharedUiMaterialModule, AppRoutingModule, PersonasModule],
   providers: [],
   bootstrap: [AppComponent],
 })

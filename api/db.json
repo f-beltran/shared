@@ -1,9 +1,1092 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "paises": {
+    "datos": [
+      {
+        "id": 4,
+        "nombre": "Afganistán"
+      },
+      {
+        "id": 8,
+        "nombre": "Albania"
+      },
+      {
+        "id": 276,
+        "nombre": "Alemania"
+      },
+      {
+        "id": 20,
+        "nombre": "Andorra"
+      },
+      {
+        "id": 24,
+        "nombre": "Angola"
+      },
+      {
+        "id": 28,
+        "nombre": "Antigua y Barbuda"
+      },
+      {
+        "id": 682,
+        "nombre": "Arabia Saudita"
+      },
+      {
+        "id": 12,
+        "nombre": "Argelia"
+      },
+      {
+        "id": 32,
+        "nombre": "Argentina"
+      },
+      {
+        "id": 51,
+        "nombre": "Armenia"
+      },
+      {
+        "id": 36,
+        "nombre": "Australia"
+      },
+      {
+        "id": 40,
+        "nombre": "Austria"
+      },
+      {
+        "id": 31,
+        "nombre": "Azerbaiyán"
+      },
+      {
+        "id": 44,
+        "nombre": "Bahamas"
+      },
+      {
+        "id": 50,
+        "nombre": "Bangladés"
+      },
+      {
+        "id": 52,
+        "nombre": "Barbados"
+      },
+      {
+        "id": 48,
+        "nombre": "Baréin"
+      },
+      {
+        "id": 56,
+        "nombre": "Bélgica"
+      },
+      {
+        "id": 84,
+        "nombre": "Belice"
+      },
+      {
+        "id": 204,
+        "nombre": "Benín"
+      },
+      {
+        "id": 112,
+        "nombre": "Bielorrusia"
+      },
+      {
+        "id": 68,
+        "nombre": "Bolivia"
+      },
+      {
+        "id": 70,
+        "nombre": "Bosnia y Herzegovina"
+      },
+      {
+        "id": 72,
+        "nombre": "Botsuana"
+      },
+      {
+        "id": 76,
+        "nombre": "Brasil"
+      },
+      {
+        "id": 96,
+        "nombre": "Brunéi"
+      },
+      {
+        "id": 100,
+        "nombre": "Bulgaria"
+      },
+      {
+        "id": 854,
+        "nombre": "Burkina Faso"
+      },
+      {
+        "id": 108,
+        "nombre": "Burundi"
+      },
+      {
+        "id": 64,
+        "nombre": "Bután"
+      },
+      {
+        "id": 132,
+        "nombre": "Cabo Verde"
+      },
+      {
+        "id": 116,
+        "nombre": "Camboya"
+      },
+      {
+        "id": 120,
+        "nombre": "Camerún"
+      },
+      {
+        "id": 124,
+        "nombre": "Canadá"
+      },
+      {
+        "id": 634,
+        "nombre": "Catar"
+      },
+      {
+        "id": 148,
+        "nombre": "Chad"
+      },
+      {
+        "id": 152,
+        "nombre": "Chile"
+      },
+      {
+        "id": 156,
+        "nombre": "China"
+      },
+      {
+        "id": 196,
+        "nombre": "Chipre"
+      },
+      {
+        "id": 170,
+        "nombre": "Colombia"
+      },
+      {
+        "id": 174,
+        "nombre": "Comoras"
+      },
+      {
+        "id": 408,
+        "nombre": "Corea del Norte"
+      },
+      {
+        "id": 410,
+        "nombre": "Corea del Sur"
+      },
+      {
+        "id": 384,
+        "nombre": "Costa de Marfil"
+      },
+      {
+        "id": 188,
+        "nombre": "Costa Rica"
+      },
+      {
+        "id": 191,
+        "nombre": "Croacia"
+      },
+      {
+        "id": 192,
+        "nombre": "Cuba"
+      },
+      {
+        "id": 208,
+        "nombre": "Dinamarca"
+      },
+      {
+        "id": 212,
+        "nombre": "Dominica"
+      },
+      {
+        "id": 218,
+        "nombre": "Ecuador"
+      },
+      {
+        "id": 818,
+        "nombre": "Egipto"
+      },
+      {
+        "id": 222,
+        "nombre": "El Salvador"
+      },
+      {
+        "id": 784,
+        "nombre": "Emiratos Árabes Unidos"
+      },
+      {
+        "id": 232,
+        "nombre": "Eritrea"
+      },
+      {
+        "id": 703,
+        "nombre": "Eslovaquia"
+      },
+      {
+        "id": 705,
+        "nombre": "Eslovenia"
+      },
+      {
+        "id": 724,
+        "nombre": "España"
+      },
+      {
+        "id": 840,
+        "nombre": "Estados Unidos"
+      },
+      {
+        "id": 233,
+        "nombre": "Estonia"
+      },
+      {
+        "id": 231,
+        "nombre": "Etiopía"
+      },
+      {
+        "id": 608,
+        "nombre": "Filipinas"
+      },
+      {
+        "id": 246,
+        "nombre": "Finlandia"
+      },
+      {
+        "id": 242,
+        "nombre": "Fiyi"
+      },
+      {
+        "id": 250,
+        "nombre": "Francia"
+      },
+      {
+        "id": 266,
+        "nombre": "Gabón"
+      },
+      {
+        "id": 270,
+        "nombre": "Gambia"
+      },
+      {
+        "id": 268,
+        "nombre": "Georgia"
+      },
+      {
+        "id": 288,
+        "nombre": "Ghana"
+      },
+      {
+        "id": 308,
+        "nombre": "Granada"
+      },
+      {
+        "id": 300,
+        "nombre": "Grecia"
+      },
+      {
+        "id": 320,
+        "nombre": "Guatemala"
+      },
+      {
+        "id": 324,
+        "nombre": "Guinea"
+      },
+      {
+        "id": 624,
+        "nombre": "Guinea-Bisáu"
+      },
+      {
+        "id": 226,
+        "nombre": "Guinea Ecuatorial"
+      },
+      {
+        "id": 328,
+        "nombre": "Guyana"
+      },
+      {
+        "id": 332,
+        "nombre": "Haití"
+      },
+      {
+        "id": 340,
+        "nombre": "Honduras"
+      },
+      {
+        "id": 348,
+        "nombre": "Hungría"
+      },
+      {
+        "id": 356,
+        "nombre": "India"
+      },
+      {
+        "id": 360,
+        "nombre": "Indonesia"
+      },
+      {
+        "id": 368,
+        "nombre": "Irak"
+      },
+      {
+        "id": 364,
+        "nombre": "Irán"
+      },
+      {
+        "id": 372,
+        "nombre": "Irlanda"
+      },
+      {
+        "id": 352,
+        "nombre": "Islandia"
+      },
+      {
+        "id": 584,
+        "nombre": "Islas Marshall"
+      },
+      {
+        "id": 90,
+        "nombre": "Islas Salomón"
+      },
+      {
+        "id": 376,
+        "nombre": "Israel"
+      },
+      {
+        "id": 380,
+        "nombre": "Italia"
+      },
+      {
+        "id": 388,
+        "nombre": "Jamaica"
+      },
+      {
+        "id": 392,
+        "nombre": "Japón"
+      },
+      {
+        "id": 400,
+        "nombre": "Jordania"
+      },
+      {
+        "id": 398,
+        "nombre": "Kazajistán"
+      },
+      {
+        "id": 404,
+        "nombre": "Kenia"
+      },
+      {
+        "id": 417,
+        "nombre": "Kirguistán"
+      },
+      {
+        "id": 296,
+        "nombre": "Kiribati"
+      },
+      {
+        "id": 414,
+        "nombre": "Kuwait"
+      },
+      {
+        "id": 418,
+        "nombre": "Laos"
+      },
+      {
+        "id": 426,
+        "nombre": "Lesoto"
+      },
+      {
+        "id": 428,
+        "nombre": "Letonia"
+      },
+      {
+        "id": 422,
+        "nombre": "Líbano"
+      },
+      {
+        "id": 430,
+        "nombre": "Liberia"
+      },
+      {
+        "id": 434,
+        "nombre": "Libia"
+      },
+      {
+        "id": 438,
+        "nombre": "Liechtenstein"
+      },
+      {
+        "id": 440,
+        "nombre": "Lituania"
+      },
+      {
+        "id": 442,
+        "nombre": "Luxemburgo"
+      },
+      {
+        "id": 807,
+        "nombre": "Macedonia del Norte"
+      },
+      {
+        "id": 450,
+        "nombre": "Madagascar"
+      },
+      {
+        "id": 458,
+        "nombre": "Malasia"
+      },
+      {
+        "id": 454,
+        "nombre": "Malaui"
+      },
+      {
+        "id": 462,
+        "nombre": "Maldivas"
+      },
+      {
+        "id": 466,
+        "nombre": "Malí"
+      },
+      {
+        "id": 470,
+        "nombre": "Malta"
+      },
+      {
+        "id": 504,
+        "nombre": "Marruecos"
+      },
+      {
+        "id": 480,
+        "nombre": "Mauricio"
+      },
+      {
+        "id": 478,
+        "nombre": "Mauritania"
+      },
+      {
+        "id": 484,
+        "nombre": "México"
+      },
+      {
+        "id": 583,
+        "nombre": "Micronesia"
+      },
+      {
+        "id": 498,
+        "nombre": "Moldavia"
+      },
+      {
+        "id": 492,
+        "nombre": "Mónaco"
+      },
+      {
+        "id": 496,
+        "nombre": "Mongolia"
+      },
+      {
+        "id": 499,
+        "nombre": "Montenegro"
+      },
+      {
+        "id": 508,
+        "nombre": "Mozambique"
+      },
+      {
+        "id": 104,
+        "nombre": "Birmania"
+      },
+      {
+        "id": 516,
+        "nombre": "Namibia"
+      },
+      {
+        "id": 520,
+        "nombre": "Nauru"
+      },
+      {
+        "id": 524,
+        "nombre": "Nepal"
+      },
+      {
+        "id": 558,
+        "nombre": "Nicaragua"
+      },
+      {
+        "id": 562,
+        "nombre": "Níger"
+      },
+      {
+        "id": 566,
+        "nombre": "Nigeria"
+      },
+      {
+        "id": 578,
+        "nombre": "Noruega"
+      },
+      {
+        "id": 554,
+        "nombre": "Nueva Zelanda"
+      },
+      {
+        "id": 512,
+        "nombre": "Omán"
+      },
+      {
+        "id": 528,
+        "nombre": "Países Bajos"
+      },
+      {
+        "id": 586,
+        "nombre": "Pakistán"
+      },
+      {
+        "id": 585,
+        "nombre": "Palaos"
+      },
+      {
+        "id": 591,
+        "nombre": "Panamá"
+      },
+      {
+        "id": 598,
+        "nombre": "Papúa Nueva Guinea"
+      },
+      {
+        "id": 600,
+        "nombre": "Paraguay"
+      },
+      {
+        "id": 604,
+        "nombre": "Perú"
+      },
+      {
+        "id": 616,
+        "nombre": "Polonia"
+      },
+      {
+        "id": 620,
+        "nombre": "Portugal"
+      },
+      {
+        "id": 826,
+        "nombre": "Reino Unido"
+      },
+      {
+        "id": 140,
+        "nombre": "República Centroafricana"
+      },
+      {
+        "id": 203,
+        "nombre": "República Checa"
+      },
+      {
+        "id": 178,
+        "nombre": "República del Congo"
+      },
+      {
+        "id": 180,
+        "nombre": "República Democrática del Congo"
+      },
+      {
+        "id": 214,
+        "nombre": "República Dominicana"
+      },
+      {
+        "id": 646,
+        "nombre": "Ruanda"
+      },
+      {
+        "id": 642,
+        "nombre": "Rumania"
+      },
+      {
+        "id": 643,
+        "nombre": "Rusia"
+      },
+      {
+        "id": 882,
+        "nombre": "Samoa"
+      },
+      {
+        "id": 659,
+        "nombre": "San Cristóbal y Nieves"
+      },
+      {
+        "id": 674,
+        "nombre": "San Marino"
+      },
+      {
+        "id": 670,
+        "nombre": "San Vicente y las Granadinas"
+      },
+      {
+        "id": 662,
+        "nombre": "Santa Lucía"
+      },
+      {
+        "id": 678,
+        "nombre": "Santo Tomé y Príncipe"
+      },
+      {
+        "id": 686,
+        "nombre": "Senegal"
+      },
+      {
+        "id": 688,
+        "nombre": "Serbia"
+      },
+      {
+        "id": 690,
+        "nombre": "Seychelles"
+      },
+      {
+        "id": 694,
+        "nombre": "Sierra Leona"
+      },
+      {
+        "id": 702,
+        "nombre": "Singapur"
+      },
+      {
+        "id": 760,
+        "nombre": "Siria"
+      },
+      {
+        "id": 706,
+        "nombre": "Somalia"
+      },
+      {
+        "id": 144,
+        "nombre": "Sri Lanka"
+      },
+      {
+        "id": 748,
+        "nombre": "Suazilandia"
+      },
+      {
+        "id": 710,
+        "nombre": "Sudáfrica"
+      },
+      {
+        "id": 729,
+        "nombre": "Sudán"
+      },
+      {
+        "id": 728,
+        "nombre": "Sudán del Sur"
+      },
+      {
+        "id": 752,
+        "nombre": "Suecia"
+      },
+      {
+        "id": 756,
+        "nombre": "Suiza"
+      },
+      {
+        "id": 740,
+        "nombre": "Surinam"
+      },
+      {
+        "id": 764,
+        "nombre": "Tailandia"
+      },
+      {
+        "id": 834,
+        "nombre": "Tanzania"
+      },
+      {
+        "id": 762,
+        "nombre": "Tayikistán"
+      },
+      {
+        "id": 626,
+        "nombre": "Timor Oriental"
+      },
+      {
+        "id": 768,
+        "nombre": "Togo"
+      },
+      {
+        "id": 776,
+        "nombre": "Tonga"
+      },
+      {
+        "id": 780,
+        "nombre": "Trinidad y Tobago"
+      },
+      {
+        "id": 788,
+        "nombre": "Túnez"
+      },
+      {
+        "id": 795,
+        "nombre": "Turkmenistán"
+      },
+      {
+        "id": 792,
+        "nombre": "Turquía"
+      },
+      {
+        "id": 798,
+        "nombre": "Tuvalu"
+      },
+      {
+        "id": 804,
+        "nombre": "Ucrania"
+      },
+      {
+        "id": 800,
+        "nombre": "Uganda"
+      },
+      {
+        "id": 858,
+        "nombre": "Uruguay"
+      },
+      {
+        "id": 860,
+        "nombre": "Uzbekistán"
+      },
+      {
+        "id": 548,
+        "nombre": "Vanuatu"
+      },
+      {
+        "id": 862,
+        "nombre": "Venezuela"
+      },
+      {
+        "id": 704,
+        "nombre": "Vietnam"
+      },
+      {
+        "id": 887,
+        "nombre": "Yemen"
+      },
+      {
+        "id": 262,
+        "nombre": "Yibuti"
+      },
+      {
+        "id": 894,
+        "nombre": "Zambia"
+      },
+      {
+        "id": 716,
+        "nombre": "Zimbabue"
+      }
+    ]
+  },
+  "ciudades": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Cochabamba",
+        "idPais": 68
+      },
+      {
+        "id": 2,
+        "nombre": "La Paz",
+        "idPais": 68
+      },
+      {
+        "id": 3,
+        "nombre": "Santa Cruz",
+        "idPais": 68
+      },
+      {
+        "id": 4,
+        "nombre": "Oruro",
+        "idPais": 68
+      },
+      {
+        "id": 5,
+        "nombre": "Potosí",
+        "idPais": 68
+      },
+      {
+        "id": 6,
+        "nombre": "Chuquisaca",
+        "idPais": 68
+      },
+      {
+        "id": 7,
+        "nombre": "Tarija",
+        "idPais": 68
+      },
+      {
+        "id": 8,
+        "nombre": "Beni",
+        "idPais": 68
+      },
+      {
+        "id": 9,
+        "nombre": "Pando",
+        "idPais": 68
+      },
+      {
+        "id": 10,
+        "nombre": "Buenos Aires",
+        "idPais": 32
+      },
+      {
+        "id": 11,
+        "nombre": "Córdoba",
+        "idPais": 32
+      },
+      {
+        "id": 12,
+        "nombre": "Rio de Janeiro",
+        "idPais": 76
+      },
+      {
+        "id": 13,
+        "nombre": "Sao Paulo",
+        "idPais": 76
+      },
+      {
+        "id": 14,
+        "nombre": "Bogotá",
+        "idPais": 170
+      },
+      {
+        "id": 15,
+        "nombre": "Cartagena",
+        "idPais": 170
+      },
+      {
+        "id": 16,
+        "nombre": "Santiago",
+        "idPais": 152
+      },
+      {
+        "id": 17,
+        "nombre": "Lima",
+        "idPais": 604
+      }
+    ]
+  },
+  "zonas": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Tupuraya",
+        "idCiudad": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Queru Queru",
+        "idCiudad": 1
+      },
+      {
+        "id": 3,
+        "nombre": "Obrajes",
+        "idCiudad": 2
+      },
+      {
+        "id": 4,
+        "nombre": "El Urubó",
+        "idCiudad": 3
+      },
+      {
+        "id": 5,
+        "nombre": "Zona",
+        "idCiudad": 7
+      }
+    ]
+  },
+  "provincias": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Arani",
+        "idCiudad": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Arque",
+        "idCiudad": 1
+      },
+      {
+        "id": 3,
+        "nombre": "Cercado",
+        "idCiudad": 1
+      },
+      {
+        "id": 4,
+        "nombre": "Camacho",
+        "idCiudad": 2
+      },
+      {
+        "id": 5,
+        "nombre": "Caranavi",
+        "idCiudad": 2
+      },
+      {
+        "id": 6,
+        "nombre": "Copacabana",
+        "idCiudad": 2
+      },
+      {
+        "id": 7,
+        "nombre": "Camiri",
+        "idCiudad": 3
+      },
+      {
+        "id": 8,
+        "nombre": "Chiquitos",
+        "idCiudad": 3
+      },
+      {
+        "id": 9,
+        "nombre": "Montero",
+        "idCiudad": 3
+      },
+      {
+        "id": 10,
+        "nombre": "Avaroa",
+        "idCiudad": 4
+      },
+      {
+        "id": 11,
+        "nombre": "Litoral",
+        "idCiudad": 4
+      },
+      {
+        "id": 12,
+        "nombre": "Oruro",
+        "idCiudad": 4
+      }
+    ]
+  },
+  "colegios": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Arani",
+        "idProvincia": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Liceo Bolivia",
+        "idProvincia": 1
+      },
+      {
+        "id": 3,
+        "nombre": "Unidad Educativa",
+        "idProvincia": 1
+      },
+      {
+        "id": 4,
+        "nombre": "Otro....",
+        "idProvincia": 1
+      },
+      {
+        "id": 5,
+        "nombre": "CEMA san juan",
+        "idProvincia": 2
+      },
+      {
+        "id": 6,
+        "nombre": "Otro....",
+        "idProvincia": 2
+      },
+      {
+        "id": 7,
+        "nombre": "Ceivo",
+        "idProvincia": 3
+      },
+      {
+        "id": 8,
+        "nombre": "La salle",
+        "idProvincia": 3
+      },
+      {
+        "id": 9,
+        "nombre": "Don bosco",
+        "idProvincia": 3
+      },
+      {
+        "id": 10,
+        "nombre": "Otro....",
+        "idProvincia": 3
+      },
+      {
+        "id": 11,
+        "nombre": "Camacho",
+        "idProvincia": 4
+      },
+      {
+        "id": 12,
+        "nombre": "Otro....",
+        "idProvincia": 4
+      }
+    ]
+  },
+  "semestres": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "II-2021"
+      },
+      {
+        "id": 2,
+        "nombre": "Invierno-2021"
+      }
+    ]
+  },
+  "carreras": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Administración de empresas",
+        "idSemestre": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Comunicación social",
+        "idSemestre": 1
+      },
+      {
+        "id": 3,
+        "nombre": "Ingeniería de sistemas",
+        "idSemestre": 2
+      },
+      {
+        "id": 4,
+        "nombre": "Derecho",
+        "idSemestre": 2
+      }
+    ]
+  },
+  "turnos": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Mañana"
+      },
+      {
+        "id": 2,
+        "nombre": "Tarde"
+      },
+      {
+        "id": 3,
+        "nombre": "Noche"
+      }
+    ]
+  },
+  "tiposDeColegio": {
+    "datos": [
+      {
+        "id": 1,
+        "nombre": "Privado"
+      },
+      {
+        "id": 2,
+        "nombre": "Estatal"
+      },
+      {
+        "id": 3,
+        "nombre": "CEMA"
+      }
+    ]
+  }
 }
