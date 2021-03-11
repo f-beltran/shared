@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SeleccionarTipoDePersonaComponent } from './seleccionar-tipo-de-persona/seleccionar-tipo-de-persona.component';
-import { PasosDeRegistroComponent } from './pasos-de-registro/pasos-de-registro.component';
+import { PasosDeRegistroComponent } from './registrar-persona/pasos-de-registro/pasos-de-registro.component';
+import { SeleccionarTipoDePersonaComponent } from './registrar-persona/seleccionar-tipo-de-persona/seleccionar-tipo-de-persona.component';
 
-const registrarPersonaRutas: Routes = [
+const personasRutas: Routes = [
   {
-    path: 'registrarPersona',
+    path: 'personas',
     children: [
       { path: '', redirectTo: 'tipoDePersona', pathMatch: 'full' },
       { path: 'tipoDePersona', component: SeleccionarTipoDePersonaComponent },
@@ -15,7 +15,7 @@ const registrarPersonaRutas: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(registrarPersonaRutas)],
+  imports: [RouterModule.forChild(personasRutas)],
   exports: [RouterModule],
 })
-export class RegistrarPersonaRutasModule {}
+export class PersonasRutasModule {}
